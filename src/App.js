@@ -12,23 +12,23 @@ class App extends Component {
       <Container className = "main-container">
       <Header size ="large"
           dividing
-        >Uncertainty Communication and Deision Aid Project</Header>
-      <Item.Group>
+        >Uncertainty Communication and Decision Aid Project</Header>
+      <Item.Group divided>
 
         <LinkContainer
-          img ='/imgs/htmldemo.png'
+          img ='./imgs/htmldemo.png'
           title = 'What is DCIS? HTML Protype'
           description = "A page designed to give information about DCIS, treatment options and related risks."
           url = "https://lokgic.github.io/whatisdcis-html-demo/"
         />
         <LinkContainer
-          img ='/imgs/beta1.png'
+          img ='./imgs/beta1.png'
           title = 'Beta Sampling Demo I'
           description = "Uncertainty visualization using beta sampling, with density plot and histogram"
           url = "http://symbolminded.io/beta-1/"
         />
         <LinkContainer
-          img ='/imgs/beta2.png'
+          img ='./imgs/beta2.png'
           title = 'Beta Sampling Demo II'
           description = "Updated version of the Beta Sampling Demo. The link between sampling and the plot is made more obvious."
           url = "http://symbolminded.io/beta-2/"
